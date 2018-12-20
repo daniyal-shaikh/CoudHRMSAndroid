@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+
+        <!--<ImageView-->
+            <!--android:layout_width="@dimen/img_width_height"-->
+            <!--android:layout_height="@dimen/img_width_height"-->
+            <!--android:src="@drawable/elite_logo" />-->
+
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginTop="5dp"
+
+                        android:gravity="left|top"
+                        android:padding="6dp"
+                        android:src="@drawable/red_dot" />
+
+
+                    <TextView
+                        android:id="@+id/txtTitle"
+                        style="@style/TextViewStyle.SliderDesc"
+                        android:layout_width="wrap_content"
+                        android:gravity="left|center_vertical"
+
+                        android:padding="5dp"
+                        android:text="We at Cloud HR Technology, transform business and HR to create better employee and customer experience by way of using cutting edge technological reforms, digitization, automation and creating digital workforce of the future."></TextView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginTop="5dp"
+
+                        android:gravity="left|top"
+                        android:padding="6dp"
+                        android:src="@drawable/red_dot" />
+
+                    <TextView
+
+                        style="@style/TextViewStyle.SliderDesc"
+                        android:layout_width="wrap_content"
+                        android:gravity="left|center_vertical"
+
+                        android:padding="5dp"
+                        android:text="As a HR organisation, we provide technology solutions to in sphere of HR Management and Development to create and manage the future workforce."></TextView>
+
+
+                </LinearLayout>
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="5dp"-->
+
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="18dp"-->
+                        <!--android:layout_height="18dp"-->
+                        <!--android:layout_marginLeft="4dp"-->
+                        <!--android:layout_marginTop="5dp"-->
+
+                        <!--android:gravity="left|top"-->
+                        <!--android:padding="6dp"-->
+                        <!--android:src="@drawable/red_dot" />-->
+
+                    <!--<TextView-->
+
+                        <!--style="@style/TextViewStyle.SliderDesc"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:gravity="left|center_vertical"-->
+
+                        <!--android:padding="5dp"-->
+                        <!--android:text="As an Elite Customer, one would benefit from a range of extended services that we believe reinforces our commitment in making their experience with us a lot more rewarding."></TextView>-->
+
+
+                <!--</LinearLayout>-->
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.cloudhr.attendancepoc.LoginActivity"
+    tools:showIn="@layout/activity_login">
+
+    <!--<android.support.v7.widget.CardView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_margin="@dimen/gap"-->
+        <!--app:cardCornerRadius="10dp">-->
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:text="Login"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.6dp"
+        android:background="@color/seperator_white">
+
+    </View>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal|center_vertical"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <!--<ImageView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="70dp"-->
+                    <!--android:padding="10dp"-->
+                    <!--android:src="" />-->
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout_mobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:gravity="bottom"
+
+                    >
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/etMobile"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:ellipsize="end"
+                        android:hint="Registered Mobile Number"
+                        android:maxLines="1"
+                        android:digits="0123456789"
+                        android:inputType="number"
+                        android:textColor="#424242" />
+
+
+                </android.support.design.widget.TextInputLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="Trouble logging in?"/>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout_pwd"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:visibility="gone"
+                    android:gravity="bottom"
+                    app:passwordToggleContentDescription="Password"
+                    app:passwordToggleEnabled="true"
+                    app:passwordToggleTint="@color/colorPrimary"
+                    app:hintTextAppearance="@style/Base.TextAppearance.AppCompat.Medium">
+
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/etPassword"
+                        style="@style/TextViewStyle.Medium"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:hint="Password"
+                        android:inputType="textPassword"
+                        android:textColor="#424242"
+                       />
+
+                </android.support.design.widget.TextInputLayout>
+
+
+
+
+                <Button
+                    android:id="@+id/btnSignIn"
+                    style="@style/ButtonStyle"
+                    android:paddingLeft="120dp"
+                    android:paddingRight="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Login"
+
+                    />
+
+
+            </LinearLayout>
+        </ScrollView>
+    <!--</android.support.v7.widget.CardView>-->
+
+
+
+</LinearLayout>

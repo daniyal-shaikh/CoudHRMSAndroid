@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimaryDark">#a91111</color>
+    <!--<color name="colorPrimary">#ed1c24</color>-->
+    <color name="colorPrimary">#dd4646</color>
+
+    <color name="primary_light">#FFCDD2</color>
+    <!--<color name="primary_light">#D0991000</color>-->
+    <!--be2513-->
+
+    <!--<color name="colorPrimary">#F44336</color>-->
+    <!--<color name="colorPrimaryDark">#D32F2F</color>-->
+    <color name="redDark">#770004</color>
+    <color name="redlight">#ed8387</color>
+
+    <color name="colorAccentRed">#ed1c24</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="divider1">#BDBDBD</color>
+
+    <color name="colorAccent">#71c4d2</color>
+    <!--9E9E9E-->
+
+    <color name="textTitle">#616161</color>
+    <color name="textSubTitle">#BDBDBD</color>
+    <color name="colorNormal">#9E9E9E</color>
+
+    <color name="darkBlue">#1565c0</color>
+    <color name="divider">#F1F1F1</color>
+    <color name="bg">#c9c5c5</color>
+    <color name="bg_dashboard">#f5f5f5</color>
+    <color name="bg_content">#fbfbfb</color>
+    <color name="bg_edit">#ebebeb</color>
+
+
+
+
+    <color name="header_text_color">#6c747c</color>
+    <color name="secondary_text_color">#9ba0a6</color>
+    <color name="seperator_white">#dadada</color>
+    <color name="tab_color">#00476f</color>
+    <color name="button_color">@color/colorPrimary</color>
+    <color name="bg_light">#eaeff7</color>
+    <color name="blue">#005faf</color>
+
+
+    <!--mintpro-->
+    <color name="background">#FFEFF3F6</color>
+    <color name="header_dark_text">#5D5C5D</color>
+    <color name="header_light_text">#6A6F71</color>
+    <color name="description_text">#929292</color>
+    <color name="seperator">#f3f3f3</color>
+    <color name="search_gray">#bcbcbc</color>
+    <color name="black">#212121</color>
+
+    <!--RBA-->
+    <color name="white">#ffffff</color>
+    <color name="lightGrey">#E0E0E0</color>
+    <color name="text_edit_color">#868686</color>
+    <color name="filter_bar_title_selected">#5a5a5a</color>
+    <color name="back_button_color">#5a5a5a</color>
+    <color name="buttonRedBackground">#ee5e35</color>
+    <color name="buttonGreenBackground">#20d2bb</color>
+    <color name="red_descent">#de6d75</color>
+    <color name="red_light">#ff7777</color>
+    <color name="red_custom">#ff5a5f</color>
+    <color name="green_descent">#42ceb2</color>
+    <color name="offer_info_white">#DDFFFFFF</color>
+    <color name="alpha_white">#26ffffff</color>
+    <!--vector colors-->
+    <!--<color name="vector_blue">#11408b</color>-->
+    <color name="vector_blue">#646566</color>
+
+    <color name="application_primary_text_color">#212121</color>
+    <color name="lightBlue">#3ab2d4</color>
+    <!--<color name="white">#FFFFFF</color>-->
+    <color name="blue_descent">#4b76c2</color>
+    <color name="red_nav">#D3332B</color>
+    <color name="holo_red_dark">#ffcc0000</color>
+    <color name="uvv_green">#ff50b100</color>
+    <color name="green_light">#7db142</color>
+
+    <color name="uvv_black">#ff000000</color>
+    <color name="uvv_light_gray">#ffF0F0F0</color>
+    <color name="uvv_gray">#ffbbbbbb</color>
+    <color name="edittext_border">#cfcfcf</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="uvv_titlebar_bg">#7f000000</color>
+    <color name="colorPrimary_inspect">#3F51B5</color>
+    <color name="colorPrimaryDark_inspect">#303F9F</color>
+    <color name="colorAccent_inspect">#FF4081</color>
+
+
+    <!--region posp-->
+
+    <color name="colorAccent_posp">#00796B</color>
+    <!--<color name="application_primary_text_color">#212121</color>-->
+    <color name="application_secondary_text_color">#757575</color>
+
+
+    <!-- Screens background color-->
+    <!--<color name="bg_screen1">#f64c73</color>-->
+    <color name="bg_screen1">#de6d75</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#c873f4</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+
+    <color name="purple">#7c4dff</color>
+    <color name="yellow">#ffb300</color>
+    <color name="green">#00bfa5</color>
+    <color name="pink">#ff4081</color>
+
+    <color name="yellow_text">#e2e20d</color>
+
+
+
+
+    <!--<array name="array_dot_active">-->
+    <!--<item>@color/dot_light_screen1</item>-->
+    <!--<item>@color/dot_light_screen2</item>-->
+    <!--<item>@color/dot_light_screen3</item>-->
+    <!--<item>@color/dot_light_screen4</item>-->
+    <!--</array>-->
+
+    <!--<array name="array_dot_inactive">-->
+    <!--<item>@color/dot_dark_screen1</item>-->
+    <!--<item>@color/dot_dark_screen2</item>-->
+    <!--<item>@color/dot_dark_screen3</item>-->
+    <!--<item>@color/dot_dark_screen4</item>-->
+    <!--</array>-->
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen1</item>
+    </array>
+
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen1</item>
+
+    </array>
+
+</resources>
